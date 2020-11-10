@@ -6,6 +6,8 @@ Application shows the upcoming departures at North and South stations, the train
 
 Can pick from dropdown between north/south stations and data will update, auto update happens around every minute.
 
+proxy for local dev using `proxy` field in `package.json` with benefit being avoiding CORS issues for usage in development.   
+
 ## Instructions:
 
 Project can be run locally by running `npm install` and `npm start` (details below).
@@ -13,6 +15,7 @@ Project can be run locally by running `npm install` and `npm start` (details bel
 For optimal running of project + its dependencies, please use Node.js LTS (v14.15.0)
 
 `NOTE:` API Base URL hidden behind .env file, can create .env file after installing dependencies at root directory of project and make `BASE_API_URL` variable equal to publically available api host address(found via API docs): `https://api-v3.mbta.com/`
+
 
 ## Available Scripts
 
